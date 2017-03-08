@@ -17,6 +17,8 @@ source-repository head
 
 library
   ghc-options: -Wall
+  
+  cpp-options: -D_SDL_main_h
 
   exposed-modules:
     SDL.Image,
